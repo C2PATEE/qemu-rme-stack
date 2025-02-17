@@ -27,6 +27,6 @@ cpio \
 rsync \
 bc
 
-RUN git config --global user.email "you@example.com"
-RUN git config --global user.name "Your Name"
+RUN git config --global user.email "C2PATEE@example.com"
+RUN git config --global user.name "C2PATEE"
 RUN git config --global color.ui false
