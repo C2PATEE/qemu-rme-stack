@@ -19,7 +19,7 @@ build_for_board()
     work=build-op-tee-${op_tee_version}-cca-v${cca_version}-${board}
     mkdir -p $work
     cd $work
-    repo init -u https://git.codelinaro.org/linaro/dcap/op-tee-${op_tee_version}/manifest.git \
+    repo init -u https://github.com/jesse-wei/manifest.git \
               -b cca/v${cca_version} -m ${board}_cca.xml
     repo sync -j$(nproc) --no-clone-bundle
     cd build
